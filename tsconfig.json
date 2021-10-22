@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "rootDirs": ["src", "../interface/src"],
+        "strict": true,
+    },
+    "include": ["src/**/*", "test/**/*"],
+    "exclude": ["node_modules"]
+}

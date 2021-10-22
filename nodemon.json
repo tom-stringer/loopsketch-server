@@ -1,0 +1,5 @@
+{
+    "watch": ["src", "env", "../interface/src"],
+    "ext": "ts",
+    "exec": "npx ts-node ./src/scripts/run.ts"
+}
